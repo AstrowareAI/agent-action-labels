@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use Agent Action Labels, please cite it as below."
+title: "Agent Action Labels"
+version: 1.0.0
+date-released: "2026-11-01"
+authors:
+  - name: "Astroware"
+license: CC-BY-4.0
+repository-code: "https://github.com/AstrowareAI/agent-action-labels"

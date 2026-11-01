@@ -1,0 +1,20 @@
+{
+  "key": "files/read_file",
+  "labels": {
+    "mutation": "read",
+    "scope": "account_wide",
+    "reversibility": "reversible",
+    "egress": "none",
+    "financial": "none",
+    "returns_class": "third_party_content"
+  },
+  "facts": { "open_world": true, "configuration_object": false, "pure_deletion": false },
+  "rationale": {
+    "mutation": "read: nothing is changed",
+    "scope": "account_wide: 4.3, the path has no declared root, so the tool reads any file the process can, including SSH keys",
+    "reversibility": "reversible: nothing changed",
+    "egress": "none: data comes into the session",
+    "financial": "none",
+    "returns_class": "third_party_content: anyone could have written the file"
+  }
+}

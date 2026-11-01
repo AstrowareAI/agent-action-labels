@@ -1,0 +1,20 @@
+{
+  "key": "mail/send_email",
+  "labels": {
+    "mutation": "create",
+    "scope": "single_record",
+    "reversibility": "irreversible",
+    "egress": "external",
+    "financial": "none",
+    "returns_class": "first_party_structured"
+  },
+  "facts": { "open_world": false, "configuration_object": false, "pure_deletion": false },
+  "rationale": {
+    "mutation": "create: a new message; nothing existing changed",
+    "scope": "single_record: one message",
+    "reversibility": "irreversible: observation rule, delivered to recipients",
+    "egress": "external: the recipient field takes any address",
+    "financial": "none",
+    "returns_class": "first_party_structured: send status and message ID"
+  }
+}

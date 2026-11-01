@@ -1,0 +1,20 @@
+{
+  "key": "payments/create_refund",
+  "labels": {
+    "mutation": "create",
+    "scope": "single_record",
+    "reversibility": "irreversible",
+    "egress": "none",
+    "financial": "direct",
+    "returns_class": "first_party_structured"
+  },
+  "facts": { "open_world": false, "configuration_object": false, "pure_deletion": false },
+  "rationale": {
+    "mutation": "create: a new refund",
+    "scope": "single_record: one refund",
+    "reversibility": "irreversible: the money moves; the API offers no undo",
+    "egress": "none: no outside recipient of data",
+    "financial": "direct: moves money",
+    "returns_class": "first_party_structured: refund status and ID"
+  }
+}
