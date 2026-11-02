@@ -13,7 +13,7 @@ Give every tool action an agent can take (send an email, run a command, issue a 
 | financial | none → indirect → direct |
 | returns_class | first_party_structured → third_party_content |
 
-Full text, rules and worked examples: [SPEC.md](SPEC.md). Machine-readable examples: [examples/](examples/).
+Full text, rules and worked examples: [SPEC.md](SPEC.md), or on the web at [astroware.ai/agent-action-labels](https://astroware.ai/agent-action-labels). Machine-readable examples: [examples/](examples/).
 
 Use it to label the tools your agents can call, to compare tools, or to write rules for what an agent may do without asking a person.
 

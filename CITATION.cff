@@ -6,4 +6,5 @@ date-released: "2026-11-01"
 authors:
   - name: "Astroware"
 license: CC-BY-4.0
+url: "https://astroware.ai/agent-action-labels"
 repository-code: "https://github.com/AstrowareAI/agent-action-labels"
